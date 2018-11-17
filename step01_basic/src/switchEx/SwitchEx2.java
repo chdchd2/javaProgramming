@@ -1,30 +1,31 @@
 package switchEx;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 /*[문제]
 숫자를 입력하시오 : 5
 
 5는 홀수 입니다
 */
 public class SwitchEx2 {
-	public static void main(String[] args) {
-		int num = 2;
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		switch(num) {
-		case 1:
-		case 3:
-		case 5:
-		case 7:
-		case 9:
-			System.out.println(num+"는 홀수입니다.");
+		int num;
+		System.out.println("숫자를 입력하시오 : ");
+		num = Integer.parseInt(br.readLine());
+		
+		switch(num%2) {
+		case 0: 
+			System.out.println(num+"은 짝수 입니다.");
 			break;
-		case 2:
-		case 4:
-		case 6:
-		case 8:
-		case 10:
-			System.out.println(num+"는 짝수입니다.");
+		case 1: 
+			System.out.println(num+"은 홀수 입니다.");
 			break;
-		default:
-			System.out.println("1-10의 범위 내에서 입력해주세요.");
 		}
+		
+		
 	}
 }
