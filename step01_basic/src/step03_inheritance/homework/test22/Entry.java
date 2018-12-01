@@ -9,7 +9,7 @@ public class Entry {
 	}
 
 	public Entry(String word) {
-		super();
+		this();
 		this.word = word;
 	}
 	

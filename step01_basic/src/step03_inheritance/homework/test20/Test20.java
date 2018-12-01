@@ -19,26 +19,26 @@ public class Test20 {
 	
 	public Test20(int i, int j) {
 		if(i>j) {
-			System.out.println("max="+i);
+			System.out.println("max = "+i);
 		}else {
-			System.out.println("max="+j);
+			System.out.println("max = "+j);
 		}
 	}
 
 	public Test20(double d, double e) {
 		if(d>e) {
-			System.out.println("max="+d);
+			System.out.println("max = "+d);
 		}else {
-			System.out.println("max="+e);
+			System.out.println("max = "+e);
 			
 		}
 	}
 	
 	public Test20(char a, char b) {
 		if(a>b) {
-			System.out.println("max="+a);
+			System.out.println("max = "+a);
 		}else {
-			System.out.println("max="+b);
+			System.out.println("max = "+b);
 			
 		}
 		
