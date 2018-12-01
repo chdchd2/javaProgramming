@@ -1,0 +1,48 @@
+step01_basic   -- Java Project
+   src
+     basic
+	     HelloWorld.java
+	     SumTest.java
+	     NameCard.java
+	     DataType1.java
+	     DataType2.java
+	     Test1.java
+	     Test2.java
+	     CastingEx.java
+	     ParseIntEx.java  ===>  "100"+"200"=100200
+	                             Integer.parseInt("100")  --> 100    
+	     OperatorEx.java
+	     InputEx1.java
+	     InputEx2.java
+	     
+	 ifex --- ÆÐÅ°Áö
+	     IfEx1.java
+	     IfEx2.java
+	 switchex
+	     SwitchEx1.java     
+	     SwitchEx2.java
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+	     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
