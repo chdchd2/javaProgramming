@@ -1,4 +1,4 @@
-# javaProgramming 자바프로그래밍 개인 공부
+# javaProgramming 공부
 
 
 ### step01_basic
