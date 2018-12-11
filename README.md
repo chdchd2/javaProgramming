@@ -109,7 +109,7 @@
       	* ObjectEx.java   -- 자바에서 생략가능한것들
       
 	* exception
-      		* ExceptionEx1.java
+      	* ExceptionEx1.java
 		* ExceptionEx2.java
 		* ExceptionEx3.java
 		* ExceptionEx4.java
