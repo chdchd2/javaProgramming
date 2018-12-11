@@ -106,7 +106,7 @@
 	* tv2	
 
 ### step04_collection
-      		* ObjectEx.java   -- 자바에서 생략가능한것들
+      	* ObjectEx.java   -- 자바에서 생략가능한것들
       
 	* exception
       		* ExceptionEx1.java
