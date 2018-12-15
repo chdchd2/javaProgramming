@@ -13,7 +13,7 @@ class FamilyThread extends Thread{
 	public FamilyThread(Washroom wr, String who){
 		this.wr = wr;
 		this.who = who;
-	}
+	}  
 	@Override
 	public void run(){
 		try {
