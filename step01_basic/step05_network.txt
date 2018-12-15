@@ -1,0 +1,19 @@
+step05_network  --Java Project
+   src
+     ioex
+       InputStreamEx.java
+       OutputStreamEx.java
+       DataStreamEx1.java  / DataStreamEx2.java
+     fileex
+       FileInputStreamEx1.java / FileOutputStreamEx1.java    
+       FileInputStreamEx2.java / FileOutputStreamEx2.java
+       FileReaderEx.java / FileWriterEx.java
+       CopyFile.java
+     object
+       ObjectInputMain.java
+       ObjectOutputMain.java
+       User.java
+     
+     threadex
+     
+     network
