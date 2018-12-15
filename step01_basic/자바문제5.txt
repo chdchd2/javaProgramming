@@ -1,0 +1,66 @@
+[문제20]생성자 함수를 overloading하여 두수중 큰수를 출력하는 
+            프로그램을 완성하시오.(단, 계산과 출력은 생성자에서 할것)
+
+public static void main(String[] args) 
+{
+     Test20 ob1 = new Test20(10,20);
+     Test20 ob2 = new Test20(12.4, 9.45);
+     Test20 ob3 = new Test20('Z', 'p');
+}
+
+--출력--
+max = 20
+max = 12.4
+max = p
+
+-----------------------------------------------------------------------
+[문제21] 다음 프로그램을 완성하시오
+(1)클래스명 : Salary
+  -name:String (이름)
+  -salary:int  (연봉)
+  +Salary()
+  +Salary(name:String, salary:int) ==> name, salary에 대입
+  +viewInfomation():void     ==> 메서드에서 이름과 연봉을 출력
+
+(2)클래스명 : Test21 ==> Salary를 상속받음
+  -department:String(부서)
+  +Test21()
+  +Test21(nameString, salary:int, department:String)
+  +viewInfomation():void     ==> 부서 출력
+
+(3)main()함수에서
+   Test21  ob = new Test21("홍길동",85000000,"개발부"); 로 시작할것
+
+
+(4)출력
+이름 : 홍길동
+연봉 : 85000000
+부서 : 개발부
+--------------------------------------------------------------------
+[문제22] 다음 프로그램을 완성하시오
+(1)Entry
+   -word:String 
+   +Entry()                               ==>  ***약어사전***  출력
+   +Entry(word:String)            ==>  Entry()호출 
+   +writeView():void                ==>  약어출력
+
+(2)SubEntry   ==> Entry를 상속받음
+   -definition:String  
+   -year:int
+   +SubEntry()
+   +SubEntry(word:String)                                              ==> Entry(String word)   호출 
+   +SubEntry(word:String, definition:String, year:int)   ==> SubEntry(String word)호출
+   +printView():void                                                         ==> 원어, 시기출력
+
+(3)main()함수에서
+    SubEntry ob=new SubEntry("OOP","Object Oriented Programming", 1991);
+    ob.writeView();
+    ob.printView();
+
+(4)출력
+
+*****약어사전******
+약어 : OOP
+원어 : Object Oriented Programming
+시기 : 1991년
+

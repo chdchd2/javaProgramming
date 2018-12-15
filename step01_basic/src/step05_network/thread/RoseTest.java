@@ -13,39 +13,39 @@ NORM_PRIORITY : 우선순위 5(순위 미지정)
 join() : 한 쓰레드의 동작이 끝날때까지 대기한다.
 */
 //------------------------------------------------------------------------------------------
-class Test1 extends Thread{
-	@Override
-	public void run(){
-		for(int i=0; i<100; i++){
-			System.out.println("장미");
-			for(long x=0; x<1000000; x++);
-		}
-	}
-}
-class Test2 extends Thread{
-	@Override
-	public void run(){
-		for(int i=0; i<100; i++){
-			System.out.println("사랑");
-			for(long x=0; x<1000000; x++);
-		}
-	}
-}
-public class RoseTest{
-	public static void main(String[] args) {
-		Test1 ob1=new Test1();
-		Test2 ob2=new Test2();
-		
-		ob1.setPriority(10);
-		ob2.setPriority(1);
-		
-		ob1.start();
-		ob2.start();		
-	}
-}
+//class Test1 extends Thread{
+//	@Override
+//	public void run(){
+//		for(int i=0; i<100; i++){
+//			System.out.println("장미");
+//			for(long x=0; x<1000000; x++);
+//		}
+//	}
+//}
+//class Test2 extends Thread{
+//	@Override
+//	public void run(){
+//		for(int i=0; i<100; i++){
+//			System.out.println("사랑");
+//			for(long x=0; x<1000000; x++);
+//		}
+//	}
+//}
+//public class RoseTest{
+//	public static void main(String[] args) {
+//		Test1 ob1=new Test1();
+//		Test2 ob2=new Test2();
+//		
+//		ob1.setPriority(10);
+//		ob2.setPriority(1);
+//		
+//		ob1.start();
+//		ob2.start();		
+//	}
+//}
 
 //------------------------------------------------------------------------------------------
-/*
+
 public class RoseTest extends Thread{
 	private String flower;
 	
@@ -78,7 +78,6 @@ public class RoseTest extends Thread{
 		ob3.start();
 	}
 }
-*/
 
 
 

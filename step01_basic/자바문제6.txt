@@ -1,0 +1,51 @@
+[문제23] 문자열변수에 "IT ELITE" 를 대입한후 String클래스의 메서드를 이용하여
+         다음과 같이 출력하시오
+
+-출력-
+
+L   T
+it elite
+IT
+ELITE
+iT ELiTE
+
+------------------------------------------------------------------------------
+[문제24] 문자열변수에 "10*30*20*40*50"를 대입한후 StringTokenizer클래스를 
+         이용하여 다음결과를구하시오
+         String str="10*30*20*40*50";   Integer.parseInt()사용
+
+[출력화면]
+10+30+20+40+50 = 150
+------------------------------------------------------------------------------
+[문제25] HashMap 컬렉션을 이용하여 다음 프로그램을 작성하시오
+
+(1)클래스명 : PhoneBook
+- phoneNumber : String
+- address : String
++ PhoneBook(phoneNumber:String,address:String)
++ toString():String      ==> 연락처와 주소의 출력문자열을 리턴한다
+
+(2)사용데이터
+    key             value
+    ----------------------------------
+    홍길동         123-4567   서울
+    이몽룡         345-3345   대구
+    임꺽정         123-7890   부산
+
+(2)조건
+    1) main()메서드에서 
+       public static void main(String[]args){
+                 HashMap<,> map =new HashMap<>();
+                 // 데이터를 추가
+                 // key : 이름    value : PhoneBook의 객체
+       }   
+
+    2) 제네릭스를 이용한다
+
+[출력화면]
+찾는 이름: 임꺽정
+Phone: 123-7890
+Address: 부산
+
+찾는 이름 : 방자
+그런사람 없음

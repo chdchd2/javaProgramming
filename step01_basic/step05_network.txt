@@ -1,4 +1,5 @@
 step05_network  --Java Project
+   storage   --폴더
    src
      ioex
        InputStreamEx.java
@@ -13,7 +14,44 @@ step05_network  --Java Project
        ObjectInputMain.java
        ObjectOutputMain.java
        User.java
+     test
+       score.txt
+             문제1.txt   
      
-     threadex
-     
+     thread
+        MyThreadEx1.java
+        MyThreadEx2.java
+        MyThreadEx3.java
+        MyThreadEx4.java
+        RoseTest.java
+        SyncThreadTest.java
+        
+     clock
+        ClockMain.java
+        DigitalClock.java
+      
+     awt
+       AwtEx1.java
+       AwtEx2.java
+             
      network
+       InetAddressEx1.java
+       InetAddressEx2.java
+       
+     tcp
+       TCPClient.java
+       TCPServer.java
+     
+     udp
+       UDPClient.java
+       UDPServer.java
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
